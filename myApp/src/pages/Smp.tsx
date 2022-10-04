@@ -48,14 +48,6 @@ const Smp: React.FC = () => {
         <IonCard>
 
           <IonContent>
-     {/*        <IonHeader>
-              <IonToolbar>
-                <IonTitle>Datas</IonTitle>
-                <IonButtons slot="end">
-                  <IonButton onClick={()=>setShowModal(false)}>Close</IonButton>
-                </IonButtons>
-              </IonToolbar>
-            </IonHeader> */}
             <IonModal isOpen={showModal} breakpoints={[0, 0.2, 0.5, 1]} initialBreakpoint={0.5} backdropBreakpoint={0.2}>
             <IonHeader>
               <IonToolbar>

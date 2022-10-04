@@ -7,7 +7,8 @@ import {
   setupIonicReact
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import Tab1 from './pages/Smp';
+import Smp from './pages/Smp';
+import Smp2 from './pages/Smp2';
 
 
 /* Core CSS required for Ionic components to work properly */
@@ -37,7 +38,10 @@ const App: React.FC = () => (
       <IonTabs>
         <IonRouterOutlet>
           <Route exact path="/smp">
-            <Tab1 />
+            <Smp />
+          </Route>
+          <Route exact path="/smp2">
+            <Smp2 />
           </Route>
           <Route exact path="/">
             <Redirect to="/smp" />

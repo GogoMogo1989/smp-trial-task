@@ -43,7 +43,6 @@ const Smp: React.FC = () => {
           <IonTitle size="large">SMP Trial task, React + Ionic</IonTitle>
         </IonToolbar>
       </IonHeader>
-
       <IonContent fullscreen>
         <IonCard>
 
@@ -63,7 +62,6 @@ const Smp: React.FC = () => {
                 <h2>Password: {title3}</h2>
               </IonCardContent>
             </IonModal>
-          
           </IonContent>
 
 
@@ -109,7 +107,6 @@ const Smp: React.FC = () => {
     </IonPage>
     </>
   );
- 
 };
 
 export default Smp;
